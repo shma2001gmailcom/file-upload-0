@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 1.3//EN"
+        "http://jakarta.apache.org/struts/dtds/struts-config_1_3.dtd">
+
+<struts-config>
+
+    <form-beans>
+        <form-bean name="fileUploadForm"
+                type="org.misha.form.FileUploadForm"/>
+
+    </form-beans>
+
+    <action-mappings>
+
+        <action path="/UploadPage"
+                type="org.apache.struts.actions.ForwardAction"
+                parameter="/pages/fileupload.jsp"/>
+
+        <action path="/Upload"
+                type="org.misha.action.FileUploadAction"
+                name="fileUploadForm"
+                validate="true"
+                input="/pages/fileupload.jsp"
+                scope="request"
+                >
+            <forward name="success" path="/pages/display.jsp"/>
+        </action>
+
+    </action-mappings>
+
+    <message-resources
+            parameter="Common"/>
+
+</struts-config>

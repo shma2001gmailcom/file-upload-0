@@ -1,0 +1,46 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building uploadFile 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ uploadFile ---
+[INFO] Deleting D:\work\my-prj\file-upload-0\file-upload-0\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ uploadFile ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ uploadFile ---
+[INFO] Compiling 2 source files to D:\work\my-prj\file-upload-0\file-upload-0\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:testResources (default-testResources) @ uploadFile ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory D:\work\my-prj\file-upload-0\file-upload-0\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ uploadFile ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.4.3:test (default-test) @ uploadFile ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-war-plugin:2.1.1:war (default-war) @ uploadFile ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [uploadFile] in [D:\work\my-prj\file-upload-0\file-upload-0\target\uploadFile]
+[INFO] Processing war project
+[INFO] Copying webapp resources [D:\work\my-prj\file-upload-0\file-upload-0\src\main\webapp]
+[INFO] Webapp assembled in [67 msecs]
+[INFO] Building war: D:\work\my-prj\file-upload-0\file-upload-0\target\uploadFile.war
+[WARNING] Warning: selected war files include a WEB-INF/web.xml which will be ignored 
+(webxml attribute is missing from war task, or ignoreWebxml attribute is specified as 'true')
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ uploadFile ---
+[INFO] Installing D:\work\my-prj\file-upload-0\file-upload-0\target\uploadFile.war to C:\Users\sbt-shevelin-ma\.m2\repository\org\misha\uploadFile\1.0-SNAPSHOT\uploadFile-1.0-SNAPSHOT.war
+[INFO] Installing D:\work\my-prj\file-upload-0\file-upload-0\pom.xml to C:\Users\sbt-shevelin-ma\.m2\repository\org\misha\uploadFile\1.0-SNAPSHOT\uploadFile-1.0-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.524s
+[INFO] Finished at: Mon May 23 20:39:02 NOVT 2016
+[INFO] Final Memory: 8M/233M
+[INFO] ------------------------------------------------------------------------
